@@ -44,6 +44,7 @@ public class Program {
 			System.out.println("Average price: "+ String.format("%.2f",avg));
 			
 			// nomes de produtos cujos precos sao abaixo da media
+			//ordenacao decrecente
 			
 			Comparator<String> comp = (s1, s2) -> s1.toUpperCase().compareTo(s2.toUpperCase());
 					
